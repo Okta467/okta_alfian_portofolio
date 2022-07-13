@@ -1522,7 +1522,7 @@ a { text-decoration: none; }
   #btn-goto-bottom {
     margin-right: 50px;
     margin-bottom: 25px; }
-  @media (min-width: 768px) {
+  @media (max-width: 768px) {
     #btn-goto-top { margin-right: 85px; }
     #btn-goto-bottom { margin-right: 20px; } }
   #btn-goto-top:hover, #btn-goto-bottom:hover {
