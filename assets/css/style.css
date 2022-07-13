@@ -1522,6 +1522,9 @@ a { text-decoration: none; }
   #btn-goto-bottom {
     margin-right: 50px;
     margin-bottom: 25px; }
+  @media (min-width: 1200768px) {
+    #btn-goto-top { margin-right: 85px; }
+    #btn-goto-bottom { margin-right: 20px; } }
   #btn-goto-top:hover, #btn-goto-bottom:hover {
     /* background-color: #09487c; */
     cursor: pointer;

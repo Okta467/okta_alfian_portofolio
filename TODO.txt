@@ -1,0 +1,3 @@
+- animation for burger menu mobile
+- modal when project pic clicked
+- blog page
