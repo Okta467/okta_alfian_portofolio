@@ -21,12 +21,13 @@
   </nav>
   <div class="colorlib-footer">
     <ul>
-      <li><a href="#"><i class="icon-facebook2"></i></a></li>
-      <li><a href="#"><i class="icon-twitter2"></i></a></li>
-      <li><a href="#"><i class="icon-instagram"></i></a></li>
-      <li><a href="#"><i class="icon-linkedin2"></i></a></li>
-      <li><a href="#"><i class="icon-telegram"></i></a></li>
-      <li><a href="#"><i class="icon-mail"></i></a></li>
+      <li><a href="https://facebook.com/okta.alfiansyah.5" target="_blank" rel="noopener"><i class="icon-facebook2"></i></a></li>
+      <li><a href="https://twitter.com/Okta_Alfiansyah" target="_blank" rel="noopener"><i class="icon-twitter2"></i></a></li>
+      <li><a href="https://instagram.com/okta_alfian" target="_blank" rel="noopener"><i class="icon-instagram"></i></a></li>
+      <li><a href="https://wa.me/6287742798886" target="_blank" rel="noopener"><i class="icon-whatsapp"></i></a></li>
+      <li><a href="https://linkedin.com/in/okta-alfiansyah-3b603015b/" target="_blank" rel="noopener"><i class="icon-linkedin2"></i></a></li>
+      <li><a href="https://t.me/Okta467" target="_blank" rel="noopener"><i class="icon-telegram"></i></a></li>
+      <li><a href="mailto:oktaalfiansyah@gmail.com"><i class="icon-mail"></i></a></li>
     </ul>
     <p>
       <small>

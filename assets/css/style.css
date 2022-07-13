@@ -332,8 +332,7 @@ figure {
           @media screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .heading-section {
               font-size: 30px; } }
-        #colorlib-hero .flexslider .slider-text > .slider-text-inner s
-.colorlib-lead {
+        #colorlib-hero .flexslider .slider-text > .slider-text-inner s .colorlib-lead {
           font-size: 20px;
           color: #fff; }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner p {
@@ -353,6 +352,13 @@ figure {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn:hover {
               background: transparent !important;
               border: 1px solid #000 !important; }
+          #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn2 {
+            border: 1px solid #2694ed;
+            background: rgb(44 152 240 / 80%) !important;
+            color: #fff; }
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn2:hover {
+              background: rgb(44 152 240 / 80%) !important;
+              border: 1px solid #2694ed !important; }
           @media screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
               width: 100%; } }
@@ -409,8 +415,8 @@ body.offcanvas {
     .colorlib-about,
     .colorlib-services,
     .colorlib-contact {
-      padding-top: 5em;
-      padding-bottom: 8em; } }
+      padding-top: 2em;
+      padding-bottom: 2em; } }
 
 .author-container {
   /*padding: 20px 0;
@@ -906,7 +912,7 @@ body.offcanvas {
   margin-bottom: 3em; }
   @media screen and (max-width: 768px) {
     .blog-entry {
-      margin-bottom: 3em; } }
+      margin-bottom: 1em; } }
   .blog-entry .blog-img {
     width: 100%;
     height: 100%;
@@ -916,6 +922,8 @@ body.offcanvas {
     position: relative;
     z-index: 1;
     margin-bottom: 25px; }
+    @media screen and (max-width: 768px) {
+      .blog-entry .blog-img { min-height: unset; } }
     .blog-entry .blog-img img {
       object-fit: cover;
       position: relative;

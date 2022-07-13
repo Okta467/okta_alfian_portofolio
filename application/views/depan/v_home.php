@@ -35,7 +35,10 @@
                                                         <h1 id="typewriter-text">I'm okta_alfian</h1>
                                                     </div>
                                                     <h2>A Fullstack Web Developer, currently living in Palembang, Indonesia.</h2>
-                                                    <p><a class="btn btn-primary btn-learn" href="<?= base_url('assets/files/d1a9036144b02185f391dd04305c2630.pdf'); ?>" target="_blank" rel="noopener">Download CV <i class="icon-download4"></i></a></p>
+                                                    <p>
+                                                        <a class="btn btn-primary btn-learn" href="<?= base_url('assets/files/d1a9036144b02185f391dd04305c2630.pdf'); ?>" target="_blank" rel="noopener">Download CV <i class="icon-download4"></i></a>
+                                                        <a class="btn btn-primary btn-learn2" href="https://wa.me/6287742798886" target="_blank" rel="noopener">Let's Talk! <i class="icon-speech-bubble"></i></a>
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -74,9 +77,12 @@
                                         <div class="about-desc">
                                             <span class="heading-meta heading-meta-block">About Me</span>
                                             <h2 class="colorlib-heading">INTRODUCTION</h2>
+
                                             <p><strong>Hi I'm Okta Alfiansyah</strong> a fullstack web developer. I build application using PHP both <strong>native</strong> and using <strong>framework (CodeIgniter/Laravel)</strong>, with Bootstrap and JQuery. I have quite a lot of project which mostly build for <strong>college student thesis project</strong>, so I have no experience working in company.</p>
+
                                             <p>I also learn fundamental <strong>Python</strong> and web developing with <strong>Ruby on Rails</strong> (certification attached below). For my web dev skills I also begin to learn front-end framework such as <strong>Vue JS</strong> and <strong>React JS</strong>.</p>
-                                            <p>Talking about activity in my daily life (outside of work), I usually do <strong>random typing</strong> and <strong>creating a diary</strong>. I love typing so much that my typing speed (min/max) can achieve about <strong>99-123 WPM</strong> for <strong>Indonesian</strong> (110 WPM average), <strong>87-103 WPM</strong> for <strong>English</strong> (95 WPM average) (https://10fastfingers.com/user/1858945/). For my hobby in creating diary, I started it from 29/08/2015. I create it when interesting event occur such as bad-good, unique; I also create an ordinary one only when Im bored.</p>
+
+                                            <p>Talking about activity in my daily life (outside of work), I usually do <strong>random typing</strong> and <strong>creating a diary</strong>. I love typing so much that my typing speed (min/max) can achieve about <strong>99-123 WPM</strong> for <strong>Indonesian</strong> (110 WPM average), <strong>87-103 WPM</strong> for <strong>English</strong> (95 WPM average) (see it in  <a href="https://10fastfingers.com/user/1858945/" target="_blank" rel="noopener">10fastfinger)</a>. For my hobby in creating diary, I started it from 29/08/2015. I create it when interesting event occur such as bad-good, unique; I also create an ordinary one only when Im bored.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -122,7 +128,7 @@
                 <!--/.about -->
 
 
-                <!-- SERVICES -->
+                <!-- SKILLS -->
                 <section class="colorlib-skills py-2" data-section="skills">
                     <div class="colorlib-narrow-content">
                         <div class="row">
@@ -141,64 +147,64 @@
 
                             <!-- PS CS6 -->
                             <button type="button" class="btn btn-link col-md-1 col-sm-2 skills-icon item-animate mx-0 py-4 fadeInUp animated">
-                                <img src="<?php echo base_url('assets/images/adobe-photoshop-cs6.svg'); ?>" alt="Visual Studio">
+                                <img src="<?php echo base_url('assets/images/adobe-photoshop-cs6.svg'); ?>" alt="Adobe Photoshop CS6">
                             </button>
                             <!--/.ps-cs6 -->
 
                             <!-- GITHUB -->
-                            <a href="https://github.com/Okta467" target="_blank" rel="noopener>
+                            <a href="https://github.com/Okta467" target="_blank" rel="noopener">
                                 <button type="button" class="btn btn-link col-md-1 col-sm-2 skills-icon item-animate mx-0 py-4 fadeInUp animated">
-                                    <img src="<?php echo base_url('assets/images/github-2.svg'); ?>" alt="Google">
+                                    <img src="<?php echo base_url('assets/images/github-2.svg'); ?>" alt="Github">
                                 </button>
                             </a>
                             <!--/.github -->
 
                             <!-- PHP -->
                             <button type="button" class="btn btn-link col-md-1 col-sm-2 skills-icon item-animate mx-0 py-4 fadeInUp animated">
-                                <img src="<?php echo base_url('assets/images/php-1.svg'); ?>" alt="Google">
+                                <img src="<?php echo base_url('assets/images/php-1.svg'); ?>" alt="PHP">
                             </button>
                             <!--/.php -->
 
                             <!-- CI -->
                             <button type="button" class="btn btn-link col-md-1 col-sm-2 skills-icon item-animate mx-0 py-4 fadeInUp animated">
-                                <img src="<?php echo base_url('assets/images/codeigniter.svg'); ?>" alt="Google">
+                                <img src="<?php echo base_url('assets/images/codeigniter.svg'); ?>" alt="CodeIgniter">
                             </button>
                             <!--/.ci -->
 
                             <!-- LARAVEL -->
                             <button type="button" class="btn btn-link col-md-1 col-sm-2 skills-icon item-animate mx-0 py-4 fadeInUp animated">
-                                <img src="<?php echo base_url('assets/images/laravel.svg'); ?>" alt="Google">
+                                <img src="<?php echo base_url('assets/images/laravel.svg'); ?>" alt="Laravel">
                             </button>
                             <!--/.laravel -->
 
                             <!-- BOOTSTRAP -->
                             <button type="button" class="btn btn-link col-md-1 col-sm-2 skills-icon item-animate mx-0 py-4 fadeInUp animated">
-                                <img src="<?php echo base_url('assets/images/bootstrap-5.svg'); ?>" alt="Google">
+                                <img src="<?php echo base_url('assets/images/bootstrap-5.svg'); ?>" alt="Bootstrap">
                             </button>
                             <!--/.bootstrap -->
 
                             <!-- VUE -->
                             <button type="button" class="btn btn-link col-md-1 col-sm-2 skills-icon item-animate mx-0 py-4 fadeInUp animated">
-                                <img src="<?php echo base_url('assets/images/vue-9.svg'); ?>" alt="Google">
+                                <img src="<?php echo base_url('assets/images/vue-9.svg'); ?>" alt="Vue">
                             </button>
                             <!--/.vue -->
 
                             <!-- JS -->
                             <button type="button" class="btn btn-link col-md-1 col-sm-2 skills-icon item-animate mx-0 py-4 fadeInUp animated">
-                                <img src="<?php echo base_url('assets/images/logo-javascript.svg'); ?>" alt="Google">
+                                <img src="<?php echo base_url('assets/images/logo-javascript.svg'); ?>" alt="JS">
                             </button>
                             <!--/.js -->
 
                             <!-- JQUERY -->
                             <button type="button" class="btn btn-link col-md-1 col-sm-2 skills-icon item-animate mx-0 py-4 fadeInUp animated">
-                                <img src="<?php echo base_url('assets/images/jquery-4.svg'); ?>" alt="Google">
+                                <img src="<?php echo base_url('assets/images/jquery-4.svg'); ?>" alt="JQuery">
                             </button>
                             <!--/.jquery -->
 
                         </div>
                     </div>
                 </section>
-                <!--/.services -->
+                <!--/.skills -->
 
 
                 <!-- COUNTER -->
@@ -230,7 +236,7 @@
                 <!--/.counter -->
 
 
-                <!-- SKILLS -->
+                <!-- SERVICES -->
                 <section class="colorlib-services d-none" data-section="services">
                     <div class="colorlib-narrow-content">
                         <div class="row">
@@ -306,7 +312,7 @@
                         </div>
                     </div>
                 </section>
-                <!--/.skills -->
+                <!--/.services -->
 
 
                 <!-- EDUCATION -->
