@@ -12,8 +12,8 @@
     <div id="colorlib-page">
         <div class="container-wrap">
             <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-            <btn id="btn-goto-top" class="show" onclick='window.scrollTo({top: 0, behavior: "smooth"});'><i class="icon-arrow-up"></i></btn>
-            <btn id="btn-goto-bottom" class="show" onclick='window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" })'><i class="icon-arrow-down"></i></btn>
+            <btn id="btn-goto-top" onclick='window.scrollTo({top: 0, behavior: "smooth"});'><i class="icon-arrow-up"></i></btn>
+            <btn id="btn-goto-bottom" onclick='window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" })'><i class="icon-arrow-down"></i></btn>
             
             <?php $this->load->view('depan/_partials/v_navbar'); ?>
 

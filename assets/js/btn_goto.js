@@ -6,10 +6,14 @@ var myScrollFunc = function () {
     if (y >= 154) {
         btn_goto_top.style.opacity = "1";
         btn_goto_bottom.style.opacity = "1";
+        btn_goto_top.style.visibility = "visible";
+        btn_goto_bottom.style.visibility = "visible";
         // console.log("high " + y);
     } else {
         btn_goto_top.style.opacity = "0";
         btn_goto_bottom.style.opacity = "0";
+        btn_goto_top.style.visibility = "hidden";
+        btn_goto_bottom.style.visibility = "hidden";
         // console.log("low " + y);
     }
 };

@@ -1513,6 +1513,7 @@ a { text-decoration: none; }
   right: 0;
   position: fixed;
   z-index: 999;
+  visibility: hidden;
   opacity: 0;
   transition: .3s; }
   #btn-goto-top {
