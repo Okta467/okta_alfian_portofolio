@@ -12,8 +12,8 @@
     <div id="colorlib-page">
         <div class="container-wrap">
             <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-            <a id="btn-goto-top" class="hide" onclick='window.scrollTo({top: 0, behavior: "smooth"});'><i class="icon-arrow-up"></i></a>
-            <a id="btn-goto-bottom" class="hide" onclick='window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" })'><i class="icon-arrow-down"></i></a>
+            <btn id="btn-goto-top" class="show" onclick='window.scrollTo({top: 0, behavior: "smooth"});'><i class="icon-arrow-up"></i></btn>
+            <btn id="btn-goto-bottom" class="show" onclick='window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" })'><i class="icon-arrow-down"></i></btn>
             
             <?php $this->load->view('depan/_partials/v_navbar'); ?>
 
@@ -31,8 +31,10 @@
                                             <div class="slider-text-inner js-fullheight">
                                                 <div class="desc typewriter">
                                                     <h1 class="mb-0">Hi!</h1>
-                                                    <h1 id="typewriter-text">I'm okta_alfian</h1>
-                                                    <h2>A Fullstack Web Developer</h2>
+                                                    <div class="d-inline-block">
+                                                        <h1 id="typewriter-text">I'm okta_alfian</h1>
+                                                    </div>
+                                                    <h2>A Fullstack Web Developer, currently living in Palembang, Indonesia.</h2>
                                                     <p><a class="btn btn-primary btn-learn" href="<?= base_url('assets/files/d1a9036144b02185f391dd04305c2630.pdf'); ?>" target="_blank" rel="noopener">Download CV <i class="icon-download4"></i></a></p>
                                                 </div>
                                             </div>
@@ -63,22 +65,23 @@
 
 
                 <!-- ABOUT -->
-                <section class="colorlib-about" data-section="about">
+                <section class="colorlib-about pt-2" data-section="about">
                     <div class="colorlib-narrow-content">
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
                                     <div class="col-md-12">
                                         <div class="about-desc">
-                                            <span class="heading-meta">About Me</span>
+                                            <span class="heading-meta heading-meta-block">About Me</span>
                                             <h2 class="colorlib-heading">INTRODUCTION</h2>
                                             <p><strong>Hi I'm Okta Alfiansyah</strong> a fullstack web developer. I build application using PHP both <strong>native</strong> and using <strong>framework (CodeIgniter/Laravel)</strong>, with Bootstrap and JQuery. I have quite a lot of project which mostly build for <strong>college student thesis project</strong>, so I have no experience working in company.</p>
                                             <p>I also learn fundamental <strong>Python</strong> and web developing with <strong>Ruby on Rails</strong> (certification attached below). For my web dev skills I also begin to learn front-end framework such as <strong>Vue JS</strong> and <strong>React JS</strong>.</p>
-                                            <p>Talking about activity in my daily life (outside of work), I usually do <strong>random typing</strong> and <strong>creating a diary</strong>. I love typing so much that my typing speed (min/max) can achieve about <strong>99-123 WPM</strong> for <strong>Indonesian</strong> (110 WPM average), <strong>87-103 WPM</strong> for <strong>English (95 WPM average) (https://10fastfingers.com/user/1858945/). For my hobby in creating diary, I started it from 29/08/2015. I create it when interesting event occur such as bad-good, unique; I also create an ordinary one only when Im bored.</p>
+                                            <p>Talking about activity in my daily life (outside of work), I usually do <strong>random typing</strong> and <strong>creating a diary</strong>. I love typing so much that my typing speed (min/max) can achieve about <strong>99-123 WPM</strong> for <strong>Indonesian</strong> (110 WPM average), <strong>87-103 WPM</strong> for <strong>English</strong> (95 WPM average) (https://10fastfingers.com/user/1858945/). For my hobby in creating diary, I started it from 29/08/2015. I create it when interesting event occur such as bad-good, unique; I also create an ordinary one only when Im bored.</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row">
+                                <!-- HIDE TEMPORARY -->
+                                <div class="row d-none">
                                     <div class="col-md-3 col-xs-6 animate-box" data-animate-effect="fadeInLeft">
                                         <div class="services about-services color-1">
                                             <span class="icon2"><i class="icon-device-laptop"></i></span>
@@ -120,81 +123,78 @@
 
 
                 <!-- SERVICES -->
-                <section class="colorlib-services" data-section="services">
+                <section class="colorlib-skills py-2" data-section="skills">
                     <div class="colorlib-narrow-content">
                         <div class="row">
-                            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                                <span class="heading-meta">What I do?</span>
-                                <h2 class="colorlib-heading">Here are some of my expertise</h2>
-                            </div>
+                        <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
+                            <span class="heading-meta heading-meta-block">My Specialist</span>
+                            <h2 class="colorlib-heading">My Tools and Expertise</h2>
                         </div>
-                        <div class="row row-pt-md d-flex flex-wrap">
-                            <div class="col-md-4 col-sm-6 text-center animate-box">
-                                <div class="services color-1">
-                                    <span class="icon">
-                                        <i class="icon-bulb"></i>
-                                    </span>
-                                    <div class="desc">
-                                        <h3>Innovative Ideas</h3>
-                                        <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-6 text-center animate-box">
-                                <div class="services color-2">
-                                    <span class="icon">
-                                        <i class="icon-data"></i>
-                                    </span>
-                                    <div class="desc">
-                                        <h3>Software</h3>
-                                        <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-6 text-center animate-box">
-                                <div class="services color-3">
-                                    <span class="icon">
-                                        <i class="icon-phone3"></i>
-                                    </span>
-                                    <div class="desc">
-                                        <h3>Application</h3>
-                                        <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-6 text-center animate-box">
-                                <div class="services color-4">
-                                    <span class="icon">
-                                        <i class="icon-layers2"></i>
-                                    </span>
-                                    <div class="desc">
-                                        <h3>Graphic Design</h3>
-                                        <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-6 text-center animate-box">
-                                <div class="services color-5">
-                                    <span class="icon">
-                                        <i class="icon-data"></i>
-                                    </span>
-                                    <div class="desc">
-                                        <h3>Software</h3>
-                                        <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-6 text-center animate-box">
-                                <div class="services color-6">
-                                    <span class="icon">
-                                        <i class="icon-phone3"></i>
-                                    </span>
-                                    <div class="desc">
-                                        <h3>Application</h3>
-                                        <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-                                    </div>
-                                </div>
-                            </div>
+                        </div>
+                        <div class="row py-4 d-flex flex-wrap justify-content-center align-items-center">
+
+                            <!-- VS CODE -->
+                            <button type="button" class="btn btn-link col-md-1 col-sm-2 skills-icon item-animate mx-0 py-4 fadeInUp animated">
+                                <img src="<?php echo base_url('assets/images/visual-studio-code-1.svg'); ?>" alt="Visual Studio">
+                            </button>
+                            <!--/.vs-code -->
+
+                            <!-- PS CS6 -->
+                            <button type="button" class="btn btn-link col-md-1 col-sm-2 skills-icon item-animate mx-0 py-4 fadeInUp animated">
+                                <img src="<?php echo base_url('assets/images/adobe-photoshop-cs6.svg'); ?>" alt="Visual Studio">
+                            </button>
+                            <!--/.ps-cs6 -->
+
+                            <!-- GITHUB -->
+                            <a href="https://github.com/Okta467" target="_blank" rel="noopener>
+                                <button type="button" class="btn btn-link col-md-1 col-sm-2 skills-icon item-animate mx-0 py-4 fadeInUp animated">
+                                    <img src="<?php echo base_url('assets/images/github-2.svg'); ?>" alt="Google">
+                                </button>
+                            </a>
+                            <!--/.github -->
+
+                            <!-- PHP -->
+                            <button type="button" class="btn btn-link col-md-1 col-sm-2 skills-icon item-animate mx-0 py-4 fadeInUp animated">
+                                <img src="<?php echo base_url('assets/images/php-1.svg'); ?>" alt="Google">
+                            </button>
+                            <!--/.php -->
+
+                            <!-- CI -->
+                            <button type="button" class="btn btn-link col-md-1 col-sm-2 skills-icon item-animate mx-0 py-4 fadeInUp animated">
+                                <img src="<?php echo base_url('assets/images/codeigniter.svg'); ?>" alt="Google">
+                            </button>
+                            <!--/.ci -->
+
+                            <!-- LARAVEL -->
+                            <button type="button" class="btn btn-link col-md-1 col-sm-2 skills-icon item-animate mx-0 py-4 fadeInUp animated">
+                                <img src="<?php echo base_url('assets/images/laravel.svg'); ?>" alt="Google">
+                            </button>
+                            <!--/.laravel -->
+
+                            <!-- BOOTSTRAP -->
+                            <button type="button" class="btn btn-link col-md-1 col-sm-2 skills-icon item-animate mx-0 py-4 fadeInUp animated">
+                                <img src="<?php echo base_url('assets/images/bootstrap-5.svg'); ?>" alt="Google">
+                            </button>
+                            <!--/.bootstrap -->
+
+                            <!-- VUE -->
+                            <button type="button" class="btn btn-link col-md-1 col-sm-2 skills-icon item-animate mx-0 py-4 fadeInUp animated">
+                                <img src="<?php echo base_url('assets/images/vue-9.svg'); ?>" alt="Google">
+                            </button>
+                            <!--/.vue -->
+
+                            <!-- JS -->
+                            <button type="button" class="btn btn-link col-md-1 col-sm-2 skills-icon item-animate mx-0 py-4 fadeInUp animated">
+                                <img src="<?php echo base_url('assets/images/logo-javascript.svg'); ?>" alt="Google">
+                            </button>
+                            <!--/.js -->
+
+                            <!-- JQUERY -->
+                            <button type="button" class="btn btn-link col-md-1 col-sm-2 skills-icon item-animate mx-0 py-4 fadeInUp animated">
+                                <img src="<?php echo base_url('assets/images/jquery-4.svg'); ?>" alt="Google">
+                            </button>
+                            <!--/.jquery -->
+
                         </div>
                     </div>
                 </section>
@@ -231,11 +231,11 @@
 
 
                 <!-- SKILLS -->
-                <section class="colorlib-skills" data-section="skills">
+                <section class="colorlib-services d-none" data-section="services">
                     <div class="colorlib-narrow-content">
                         <div class="row">
                             <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                                <span class="heading-meta">My Specialty</span>
+                                <span class="heading-meta heading-meta-block">My Specialty</span>
                                 <h2 class="colorlib-heading animate-box">My Skills</h2>
                             </div>
                         </div>
@@ -314,7 +314,7 @@
                     <div class="colorlib-narrow-content">
                         <div class="row">
                             <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                                <span class="heading-meta">Education</span>
+                                <span class="heading-meta heading-meta-block">Education</span>
                                 <h2 class="colorlib-heading animate-box">Education</h2>
                             </div>
                         </div>
@@ -322,30 +322,32 @@
                             <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
                                 <div class="fancy-collapse-panel">
                                     <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+                                        <!-- SI UIN RF -->
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="headingOne">
                                                 <h4 class="panel-title">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Master Degree Graphic Design
+                                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Information System -- UIN Raden Fatah Palembang
                                                     </a>
                                                 </h4>
                                             </div>
-                                            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                            <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
                                                 <div class="panel-body">
-                                                    <div class="row">
-                                                        <div class="col-md-6">
-                                                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-                                                        </div>
-                                                        <div class="col-md-6">
-                                                            <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                                                        </div>
-                                                    </div>
+                                                    <p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                                                    <ul>
+                                                        <li>Separated they live in Bookmarksgrove right</li>
+                                                        <li>Separated they live in Bookmarksgrove right</li>
+                                                    </ul>
                                                 </div>
                                             </div>
                                         </div>
+                                        <!--/.si-uin-rf -->
+
+                                        <!-- TKJ SMKN 8 -->
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="headingTwo">
                                                 <h4 class="panel-title">
-                                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Bachelor Degree of Information System
+                                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Computer and Network Engineering -- SMKN 8 Palembang
                                                     </a>
                                                 </h4>
                                             </div>
@@ -359,47 +361,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="panel panel-default">
-                                            <div class="panel-heading" role="tab" id="headingThree">
-                                                <h4 class="panel-title">
-                                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Diploma in Information Technology
-                                                    </a>
-                                                </h4>
-                                            </div>
-                                            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                                                <div class="panel-body">
-                                                    <p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                                                </div>
-                                            </div>
-                                        </div>
+                                        <!--/.tkj-smkn-8 -->
 
-                                        <div class="panel panel-default">
-                                            <div class="panel-heading" role="tab" id="headingFour">
-                                                <h4 class="panel-title">
-                                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Diploma in Information Technology
-                                                    </a>
-                                                </h4>
-                                            </div>
-                                            <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-                                                <div class="panel-body">
-                                                    <p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="panel panel-default">
-                                            <div class="panel-heading" role="tab" id="headingFive">
-                                                <h4 class="panel-title">
-                                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">High School Secondary Education
-                                                    </a>
-                                                </h4>
-                                            </div>
-                                            <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
-                                                <div class="panel-body">
-                                                    <p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                                                </div>
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -410,11 +373,11 @@
 
 
                 <!-- EXPERIENCE -->
-                <section class="colorlib-experience" data-section="experience">
+                <section class="colorlib-experience d-none" data-section="experience">
                     <div class="colorlib-narrow-content">
                         <div class="row">
                             <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                                <span class="heading-meta">Experience</span>
+                                <span class="heading-meta heading-meta-block">Experience</span>
                                 <h2 class="colorlib-heading animate-box">Work Experience</h2>
                             </div>
                         </div>
@@ -499,11 +462,11 @@
 
 
                 <!-- WORK -->
-                <section class="colorlib-work" data-section="work">
+                <section class="colorlib-work" data-section="projects">
                     <div class="colorlib-narrow-content">
                         <div class="row">
                             <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                                <span class="heading-meta">My Work</span>
+                                <span class="heading-meta heading-meta-block">My Work</span>
                                 <h2 class="colorlib-heading animate-box">Recent Work</h2>
                             </div>
                         </div>
@@ -619,17 +582,17 @@
                     <div class="colorlib-narrow-content">
                         <div class="row">
                             <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                                <span class="heading-meta">Read</span>
+                                <span class="heading-meta heading-meta-block">Read</span>
                                 <h2 class="colorlib-heading">Recent Blog</h2>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-4 col-sm-12 animate-box" data-animate-effect="fadeInLeft">
                                 <div class="blog-entry d-flex flex-wrap">
-                                    <div class="col-md-12 col-xs-4 px-0">
+                                    <div class="col-md-12 col-xs-4 px-0 py-3">
                                         <a href="blog.html" class="blog-img d-flex"><img src="<?= base_url('assets/images/blog-1.jpg'); ?>" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
                                     </div>
-                                    <div class="col-md-12 col-xs-8 px-0">
+                                    <div class="col-md-12 col-xs-8 px-0 py-3">
                                         <div class="desc blog-desc">
                                             <h3 class="mb-0"><a href="blog.html">Renovating National Gallery</a></h3>
                                             <span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
@@ -640,10 +603,10 @@
                             </div>
                             <div class="col-md-4 col-sm-12 animate-box" data-animate-effect="fadeInRight">
                                 <div class="blog-entry d-flex flex-wrap">
-                                    <div class="col-md-12 col-xs-4 px-0">
+                                    <div class="col-md-12 col-xs-4 px-0 py-3">
                                         <a href="blog.html" class="blog-img d-flex"><img src="<?= base_url('assets/images/blog-2.jpg'); ?>" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
                                     </div>
-                                    <div class="col-md-12 col-xs-8 px-0">
+                                    <div class="col-md-12 col-xs-8 px-0 py-3">
                                         <div class="desc blog-desc">
                                             <h3 class="mb-0"><a href="blog.html">Wordpress for a Beginner</a></h3>
                                             <span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
@@ -654,10 +617,10 @@
                             </div>
                             <div class="col-md-4 col-sm-12 animate-box" data-animate-effect="fadeInLeft">
                                 <div class="blog-entry d-flex flex-wrap">
-                                    <div class="col-md-12 col-xs-4 px-0">
+                                    <div class="col-md-12 col-xs-4 px-0 py-3">
                                         <a href="blog.html" class="blog-img d-flex"><img src="<?= base_url('assets/images/blog-3.jpg'); ?>" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
                                     </div>
-                                    <div class="col-md-12 col-xs-8 px-0">
+                                    <div class="col-md-12 col-xs-8 px-0 py-3">
                                         <div class="desc blog-desc">
                                             <h3 class="mb-0"><a href="blog.html">Make website from scratch</a></h3>
                                             <span><small>April 14, 2018 </small> | <small> Inspiration </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
@@ -682,38 +645,28 @@
                     <div class="colorlib-narrow-content">
                         <div class="row">
                             <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                                <span class="heading-meta">Get in Touch</span>
+                                <span class="heading-meta heading-meta-block">Get in Touch</span>
                                 <h2 class="colorlib-heading">Contact</h2>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-5">
-                                <div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-                                    <div class="colorlib-icon">
-                                        <i class="icon-globe-outline"></i>
-                                    </div>
-                                    <div class="colorlib-text">
-                                        <p><a href="#">info@domain.com</a></p>
-                                    </div>
+                        <div class="col-md-5">
+                            <div class="contact-info d-flex pb-5 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
+                                <div class="box-contact-icon"><i class="icon-globe-outline"></i></div>
+                                <div class="box-contact-text">Oktaalfiansyah@gmail.com</div>
+                            </div>
+                            <div class="d-flex pb-5 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
+                                <div class="box-contact-icon"><i class="icon-map"></i></div>
+                                <div class="box-contact-text">
+                                <a href="https://goo.gl/maps/q1pbxxoM4YgqjPgf7" target="_blank" rel="noopener">
+                                    JL. KH. Wahid Hasyim, Lr. Juwita, No. 1197, Kec. Jakabaring, Kel. Tuan Kentang, Kertapati, Palembang, 30257.
+                                </a>
                                 </div>
-
-                                <div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-                                    <div class="colorlib-icon">
-                                        <i class="icon-map"></i>
-                                    </div>
-                                    <div class="colorlib-text">
-                                        <p>198 West 21th Street, Suite 721 New York NY 10016</p>
-                                    </div>
-                                </div>
-
-                                <div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-                                    <div class="colorlib-icon">
-                                        <i class="icon-phone"></i>
-                                    </div>
-                                    <div class="colorlib-text">
-                                        <p><a href="tel://">+123 456 7890</a></p>
-                                    </div>
-                                </div>
+                            </div>
+                            <div class="d-flex pb-5 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
+                                <div class="box-contact-icon"><i class="icon-whatsapp"></i></div>
+                                <div class="box-contact-text"><a href="https://wa.me/6287742798886" target="_blank" rel="noopener">+6287742798886</a></div>
+                            </div>
                             </div>
                             <div class="col-md-7 col-md-push-1">
                                 <div class="row justify-content-end">

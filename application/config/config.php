@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/okta_alfian/';
+$config['base_url'] = 'http://localhost/okta_alfian_portofolio/';
 
 /*
 |--------------------------------------------------------------------------
@@ -524,4 +524,4 @@ $config['proxy_ips'] = '';
 
 
 // Custom config
-$config['pageTitle'] = 'Prodi Biologi';
+$config['pageTitle'] = 'okta_alfian_portofolio';

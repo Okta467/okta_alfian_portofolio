@@ -250,7 +250,7 @@ figure {
   background: #fff url(../images/loader.gif) no-repeat center center;
   width: 100%;
   float: left;
-  margin-bottom: 10em;
+  margin-bottom: 5em;
   clear: both; }
   #colorlib-hero .flexslider {
     border: none;
@@ -396,7 +396,7 @@ body.offcanvas {
 .colorlib-services,
 .colorlib-contact {
   padding-top: 4em;
-  padding-bottom: 9em;
+  padding-bottom: 4em;
   clear: both;
   width: 100%;
   display: block; }
@@ -431,7 +431,7 @@ body.offcanvas {
 
 .colorlib-heading {
   font-size: 18px;
-  margin-bottom: 4em;
+  margin-bottom: 2.5em;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -451,6 +451,15 @@ body.offcanvas {
   color: #999999;
   font-weight: 500;
   letter-spacing: 5px; }
+
+.heading-meta-block {
+  display: inline-block;
+  background: hsl(0deg 0% 70%);
+  padding: 5px 15px;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bolder;
+}
 
 .about-img {
   width: 100%;
@@ -901,6 +910,7 @@ body.offcanvas {
   .blog-entry .blog-img {
     width: 100%;
     height: 100%;
+    min-height: 255px;
     float: left;
     overflow: hidden;
     position: relative;
@@ -982,7 +992,8 @@ body.offcanvas {
     bottom: 0;
     left: 0;
     right: 0;
-    background: #2c98f0;
+    /* background: #2c98f0; */
+    background: rgb(0 0 0 / 40%);
     opacity: 0;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
@@ -1030,7 +1041,7 @@ body.offcanvas {
         color: #fff; }
     .project .desc span {
       display: block;
-      color: rgba(255, 255, 255, 0.7);
+      color: rgba(255, 255, 255, 1); /* default 0.7 */
       font-size: 13px;
       -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
       -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
@@ -1069,6 +1080,7 @@ body.offcanvas {
 #colorlib-counter {
   position: relative;
   clear: both;
+  margin-top: 5em;
   margin-bottom: 5em; }
 
 .colorlib-counters {
@@ -1474,36 +1486,38 @@ body.offcanvas {
 
 
 
-/* ---------------- */
-/* CUSTOM CSS BY ME */
-/* ---------------- */
+
+/* =======================================================
+*
+* 	CUSTOM CSS BY ME
+*
+* ======================================================= */
 /*html { scroll-behavior: smooth; }*/
 html { scroll-behavior: auto !important; }
 a { text-decoration: none; }
 
 #btn-goto-top, #btn-goto-bottom {
-  width: 0;
-  height: 0;
-  border-radius: 15px;
+  width: 50px;
+  height: 50px;
+  border-radius: 9999px;
   background-color: #2c98f0;
   bottom: 0;
   right: 0;
   position: fixed;
   z-index: 999;
-  opacity: 1;
-  visibility: visible;
-  transition: 0.3s; }
+  opacity: 0;
+  transition: .3s; }
   #btn-goto-top {
     margin-right: 110px;
     margin-bottom: 25px; }
   #btn-goto-bottom {
     margin-right: 50px;
     margin-bottom: 25px; }
-  #btn-goto-top.show, #btn-goto-bottom.show { width: 50px; height: 50px; opacity: 1; visibility: visible; }
-  #btn-goto-top.hide, #btn-goto-bottom.hide { opacity: 0; visibility: hidden; }
   #btn-goto-top:hover, #btn-goto-bottom:hover {
-    background-color: #09487c;
-    cursor: pointer; }
+    /* background-color: #09487c; */
+    cursor: pointer;
+    outline: 2px solid #2c98f0;
+    outline-offset: 2px; }
   #btn-goto-top i, #btn-goto-bottom i {
     font-size: 3em;
     color: #fff;
@@ -1514,7 +1528,7 @@ a { text-decoration: none; }
   #btn-goto-bottom:hover i { bottom: -5px; }
 
 /* typewriter effect */
-.typewriter h1#typewriter-texta {
+#typewriter-text {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
@@ -1522,6 +1536,7 @@ a { text-decoration: none; }
   letter-spacing: .15em; /* Adjust as needed */
   animation: 
     typing 3.5s steps(40, end),
+    /* typing 5s steps(40, end) infinite, */
     blink-caret .75s step-end infinite;
 }
 
@@ -1529,10 +1544,59 @@ a { text-decoration: none; }
 @keyframes typing {
   from { width: 0 }
   to { width: 100% }
+
+  /* 0%   { width: 1%; }
+  25%  { width: 1%; }
+  50%  { width: 100%; }
+  75%  { width: 100%; }
+  100% { width: 1%; } */
 }
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: orange; }
+}
+
+.skills-icon {
+  width: auto;
+  height: 120px;
+}
+
+.skills-icon img {
+  width: 100%;
+  min-width: 50px;
+  max-width: 75px;
+  opacity: 0.5;
+  transition: .35s;
+  filter: grayscale(100%);
+}
+
+.skills-icon:hover img {
+  opacity: 1;
+  filter: grayscale(0);
+}
+
+@media screen and (max-width: 768px) {
+  .skills-icon img { max-width: 50px; }
+}
+
+
+/* CONTACT */
+.box-contact-icon {
+  padding: 30px;
+  background: #f2f3f7;
+}
+
+.box-contact-icon i {
+  display: table-cell;
+  vertical-align: middle;
+  color: #2c98f0;
+  font-size: 40px;
+}
+
+.box-contact-text {
+  padding-left: 25px;
+  padding-right: 25px;
+  align-self: center;
 }
