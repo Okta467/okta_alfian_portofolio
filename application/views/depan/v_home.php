@@ -32,7 +32,7 @@
                                                 <div class="desc typewriter">
                                                     <h1 class="mb-0">Hi!</h1>
                                                     <h1 id="typewriter-text">I'm okta_alfian</h1>
-                                                    <h2>A Fullstack WEB Developer</h2>
+                                                    <h2>A Fullstack Web Developer</h2>
                                                     <p><a class="btn btn-primary btn-learn" href="<?= base_url('assets/files/d1a9036144b02185f391dd04305c2630.pdf'); ?>" target="_blank" rel="noopener">Download CV <i class="icon-download4"></i></a></p>
                                                 </div>
                                             </div>
@@ -70,18 +70,19 @@
                                 <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
                                     <div class="col-md-12">
                                         <div class="about-desc">
-                                            <span class="heading-meta">About Us</span>
-                                            <h2 class="colorlib-heading">Who Am I?</h2>
-                                            <p><strong>Hi I'm Jackson Ford</strong> On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country.</p>
-                                            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+                                            <span class="heading-meta">About Me</span>
+                                            <h2 class="colorlib-heading">INTRODUCTION</h2>
+                                            <p><strong>Hi I'm Okta Alfiansyah</strong> a fullstack web developer. I build application using PHP both <strong>native</strong> and using <strong>framework (CodeIgniter/Laravel)</strong>, with Bootstrap and JQuery. I have quite a lot of project which mostly build for <strong>college student thesis project</strong>, so I have no experience working in company.</p>
+                                            <p>I also learn fundamental <strong>Python</strong> and web developing with <strong>Ruby on Rails</strong> (certification attached below). For my web dev skills I also begin to learn front-end framework such as <strong>Vue JS</strong> and <strong>React JS</strong>.</p>
+                                            <p>Talking about activity in my daily life (outside of work), I usually do <strong>random typing</strong> and <strong>creating a diary</strong>. I love typing so much that my typing speed (min/max) can achieve about <strong>99-123 WPM</strong> for <strong>Indonesian</strong> (110 WPM average), <strong>87-103 WPM</strong> for <strong>English (95 WPM average) (https://10fastfingers.com/user/1858945/). For my hobby in creating diary, I started it from 29/08/2015. I create it when interesting event occur such as bad-good, unique; I also create an ordinary one only when Im bored.</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-3 col-xs-6 animate-box" data-animate-effect="fadeInLeft">
                                         <div class="services about-services color-1">
-                                            <span class="icon2"><i class="icon-bulb"></i></span>
-                                            <h3>Graphic Design</h3>
+                                            <span class="icon2"><i class="icon-device-laptop"></i></span>
+                                            <h3>Fullstack Web Developer</h3>
                                         </div>
                                     </div>
                                     <div class="col-md-3 col-xs-6 animate-box" data-animate-effect="fadeInRight">
@@ -103,7 +104,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row">
+                                <div class="row d-none  ">
                                     <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
                                         <div class="hire">
                                             <h2>I am happy to know you <br>that 300+ projects done sucessfully!</h2>
@@ -344,7 +345,7 @@
                                         <div class="panel panel-default">
                                             <div class="panel-heading" role="tab" id="headingTwo">
                                                 <h4 class="panel-title">
-                                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Bachelor Degree of Computer Science
+                                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Bachelor Degree of Information System
                                                     </a>
                                                 </h4>
                                             </div>
@@ -743,7 +744,7 @@
                 </section>
                 <!--/.contact -->
 
-                
+
                 <div id="bottom-page"></div>
 
             </div><!-- end:colorlib-main -->
