@@ -14,49 +14,12 @@
             <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
             <a id="btn-goto-top" class="hide" onclick='window.scrollTo({top: 0, behavior: "smooth"});'><i class="icon-arrow-up"></i></a>
             <a id="btn-goto-bottom" class="hide" onclick='window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" })'><i class="icon-arrow-down"></i></a>
-            <aside id="colorlib-aside" role="complementary" class="border js-fullheight">
-                <div class="author-container text-center">
-                    <div class="author-img" style="background-image: url(<?= base_url('assets/images/about.jpg'); ?>"></div>
-                    <h1 id="colorlib-logo"><a href="index.html">Okta Alfiansyah</a></h1>
-                    <span class="position"><a href="#">Fullstack Web Dev</a> in Indonesia</span>
-                </div>
-                <nav id="colorlib-main-menu" role="navigation" class="navbar mb-3">
-                    <div id="navbar" class="collapse">
-                        <ul>
-                            <li class="active"><a href="#" data-nav-section="home">Home</a></li>
-                            <li><a href="#" data-nav-section="about">About</a></li>
-                            <li><a href="#" data-nav-section="services">Services</a></li>
-                            <li><a href="#" data-nav-section="skills">Skills</a></li>
-                            <li><a href="#" data-nav-section="education">Education</a></li>
-                            <li><a href="#" data-nav-section="experience">Experience</a></li>
-                            <li><a href="#" data-nav-section="work">Work</a></li>
-                            <li><a href="#" data-nav-section="blog">Blog</a></li>
-                            <li><a href="#" data-nav-section="contact">Contact</a></li>
-                        </ul>
-                    </div>
-                </nav>
-                <div class="colorlib-footer">
-                	<ul>
-                		<li><a href="#"><i class="icon-facebook2"></i></a></li>
-                		<li><a href="#"><i class="icon-twitter2"></i></a></li>
-                		<li><a href="#"><i class="icon-instagram"></i></a></li>
-                		<li><a href="#"><i class="icon-linkedin2"></i></a></li>
-                		<li><a href="#"><i class="icon-telegram"></i></a></li>
-                		<li><a href="#"><i class="icon-mail"></i></a></li>
-                	</ul>
-                	<p>
-                		<small>
-                			© Copyright <script>
-                				document.write(new Date().getFullYear());
-                			</script> All rights reserved. 
-                			Made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://instagram.com/okta_alfian" target="_blank">okta_alfian</a>
-                		</small>
-                	</p>
-                </div>
-
-            </aside>
+            
+            <?php $this->load->view('depan/_partials/v_navbar'); ?>
 
             <div id="colorlib-main">
+
+                <!-- INTRO -->
                 <section id="colorlib-hero" class="js-fullheight" data-section="home">
                     <div class="flexslider js-fullheight">
                         <ul class="slides">
@@ -69,7 +32,7 @@
                                                 <div class="desc typewriter">
                                                     <h1 class="mb-0">Hi!</h1>
                                                     <h1 id="typewriter-text">I'm okta_alfian</h1>
-                                                    <h2>A Fullstack WEB Programmer</h2>
+                                                    <h2>A Fullstack WEB Developer</h2>
                                                     <p><a class="btn btn-primary btn-learn" href="<?= base_url('assets/files/d1a9036144b02185f391dd04305c2630.pdf'); ?>" target="_blank" rel="noopener">Download CV <i class="icon-download4"></i></a></p>
                                                 </div>
                                             </div>
@@ -96,7 +59,10 @@
                         </ul>
                     </div>
                 </section>
+                <!--/.intro -->
 
+
+                <!-- ABOUT -->
                 <section class="colorlib-about" data-section="about">
                     <div class="colorlib-narrow-content">
                         <div class="row">
@@ -149,9 +115,10 @@
                         </div>
                     </div>
                 </section>
+                <!--/.about -->
 
 
-
+                <!-- SERVICES -->
                 <section class="colorlib-services" data-section="services">
                     <div class="colorlib-narrow-content">
                         <div class="row">
@@ -230,7 +197,10 @@
                         </div>
                     </div>
                 </section>
+                <!--/.services -->
 
+
+                <!-- COUNTER -->
                 <div id="colorlib-counter" class="colorlib-counters" style="background-image: url(<?= base_url('assets/images/cover_bg_1.jpg'); ?>);" data-stellar-background-ratio="0.5">
                     <div class="overlay"></div>
                     <div class="colorlib-narrow-content">
@@ -256,7 +226,10 @@
                         </div>
                     </div>
                 </div>
+                <!--/.counter -->
 
+
+                <!-- SKILLS -->
                 <section class="colorlib-skills" data-section="skills">
                     <div class="colorlib-narrow-content">
                         <div class="row">
@@ -332,7 +305,10 @@
                         </div>
                     </div>
                 </section>
+                <!--/.skills -->
 
+
+                <!-- EDUCATION -->
                 <section class="colorlib-education" data-section="education">
                     <div class="colorlib-narrow-content">
                         <div class="row">
@@ -429,7 +405,10 @@
                         </div>
                     </div>
                 </section>
+                <!--/.education -->
 
+
+                <!-- EXPERIENCE -->
                 <section class="colorlib-experience" data-section="experience">
                     <div class="colorlib-narrow-content">
                         <div class="row">
@@ -515,7 +494,10 @@
                         </div>
                     </div>
                 </section>
+                <!--/.experience -->
 
+
+                <!-- WORK -->
                 <section class="colorlib-work" data-section="work">
                     <div class="colorlib-narrow-content">
                         <div class="row">
@@ -628,7 +610,10 @@
                         </div>
                     </div>
                 </section>
+                <!--/.work -->
 
+
+                <!-- BLOG -->
                 <section class="colorlib-blog" data-section="blog">
                     <div class="colorlib-narrow-content">
                         <div class="row">
@@ -688,7 +673,10 @@
                         </div>
                     </div>
                 </section>
+                <!--/.blog -->
 
+
+                <!-- CONTACT -->
                 <section class="colorlib-contact" data-section="contact">
                     <div class="colorlib-narrow-content">
                         <div class="row">
@@ -753,7 +741,9 @@
                         </div>
                     </div>
                 </section>
+                <!--/.contact -->
 
+                
                 <div id="bottom-page"></div>
 
             </div><!-- end:colorlib-main -->
