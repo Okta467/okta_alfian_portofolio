@@ -14,7 +14,7 @@
             <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
             <btn id="btn-goto-top" onclick='window.scrollTo({top: 0, behavior: "smooth"});'><i class="icon-arrow-up"></i></btn>
             <btn id="btn-goto-bottom" onclick='window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" })'><i class="icon-arrow-down"></i></btn>
-            
+
             <?php $this->load->view('depan/_partials/v_navbar'); ?>
 
             <div id="colorlib-main">
@@ -71,58 +71,29 @@
                 <section class="colorlib-about pt-2" data-section="about">
                     <div class="colorlib-narrow-content">
                         <div class="row">
+                            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                                <span class="heading-meta heading-meta-block">About Me</span>
+                                <h2 class="colorlib-heading animate-box">Introduction</h2>
+                            </div>
+                        </div>
+                        <div class="row">
                             <div class="col-md-12">
+
                                 <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
                                     <div class="col-md-12">
                                         <div class="about-desc">
-                                            <span class="heading-meta heading-meta-block">About Me</span>
-                                            <h2 class="colorlib-heading">INTRODUCTION</h2>
-
                                             <p><strong>Hi I'm Okta Alfiansyah</strong> a fullstack web developer. I build application using PHP both <strong>native</strong> and using <strong>framework (CodeIgniter/Laravel)</strong>, with Bootstrap and JQuery. I have quite a lot of project which mostly build for <strong>college student thesis project</strong>, so I have no experience working in company.</p>
-
                                             <p>I also learn fundamental <strong>Python</strong> and web developing with <strong>Ruby on Rails</strong> (certification attached below). For my web dev skills I also begin to learn front-end framework such as <strong>Vue JS</strong> and <strong>React JS</strong>.</p>
+                                            <p>Talking about activity in my daily life (outside of work), I usually do <strong>random typing</strong> and <strong>creating a diary</strong>. I love typing so much that my typing speed (min/max) can achieve about <strong>99-123 WPM</strong> for <strong>Indonesian</strong> (110 WPM average), <strong>87-103 WPM</strong> for <strong>English</strong> (95 WPM average) (see it in <a href="https://10fastfingers.com/user/1858945/" target="_blank" rel="noopener">10fastfinger)</a>. For my hobby in creating diary, I started it from 29/08/2015. I create it when interesting event occur such as bad-good, unique; I also create an ordinary one only when Im bored.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--/.row -->
 
-                                            <p>Talking about activity in my daily life (outside of work), I usually do <strong>random typing</strong> and <strong>creating a diary</strong>. I love typing so much that my typing speed (min/max) can achieve about <strong>99-123 WPM</strong> for <strong>Indonesian</strong> (110 WPM average), <strong>87-103 WPM</strong> for <strong>English</strong> (95 WPM average) (see it in  <a href="https://10fastfingers.com/user/1858945/" target="_blank" rel="noopener">10fastfinger)</a>. For my hobby in creating diary, I started it from 29/08/2015. I create it when interesting event occur such as bad-good, unique; I also create an ordinary one only when Im bored.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- HIDE TEMPORARY -->
-                                <div class="row d-none">
-                                    <div class="col-md-3 col-xs-6 animate-box" data-animate-effect="fadeInLeft">
-                                        <div class="services about-services color-1">
-                                            <span class="icon2"><i class="icon-device-laptop"></i></span>
-                                            <h3>Fullstack Web Developer</h3>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-3 col-xs-6 animate-box" data-animate-effect="fadeInRight">
-                                        <div class="services about-services color-2">
-                                            <span class="icon2"><i class="icon-globe-outline"></i></span>
-                                            <h3>Web Design</h3>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-3 col-xs-6 animate-box" data-animate-effect="fadeInTop">
-                                        <div class="services about-services color-3">
-                                            <span class="icon2"><i class="icon-data"></i></span>
-                                            <h3>Software</h3>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-3 col-xs-6 animate-box" data-animate-effect="fadeInBottom">
-                                        <div class="services about-services color-4">
-                                            <span class="icon2"><i class="icon-phone3"></i></span>
-                                            <h3>Application</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row d-none  ">
-                                    <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-                                        <div class="hire">
-                                            <h2>I am happy to know you <br>that 300+ projects done sucessfully!</h2>
-                                            <a href="#" class="btn-hire">Hire me</a>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
+                            <!--/.col -->
                         </div>
+                        <!--/.row -->
                     </div>
                 </section>
                 <!--/.about -->
@@ -132,12 +103,12 @@
                 <section class="colorlib-skills py-2" data-section="skills">
                     <div class="colorlib-narrow-content">
                         <div class="row">
-                        <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
-                            <span class="heading-meta heading-meta-block">My Specialist</span>
-                            <h2 class="colorlib-heading">My Tools and Expertise</h2>
+                            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                                <span class="heading-meta heading-meta-block">My Specialist</span>
+                                <h2 class="colorlib-heading animate-box">My Tools and Expertise</h2>
+                            </div>
                         </div>
-                        </div>
-                        <div class="row py-4 d-flex flex-wrap justify-content-center align-items-center">
+                        <div class="row py-4 d-flex flex-wrap justify-content-center align-items-center animate-box" data-animate-effect="fadeInUp">
 
                             <!-- VS CODE -->
                             <button type="button" class="btn btn-link col-md-1 col-sm-2 skills-icon item-animate mx-0 py-4 fadeInUp animated">
@@ -236,85 +207,6 @@
                 <!--/.counter -->
 
 
-                <!-- SERVICES -->
-                <section class="colorlib-services d-none" data-section="services">
-                    <div class="colorlib-narrow-content">
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                                <span class="heading-meta heading-meta-block">My Specialty</span>
-                                <h2 class="colorlib-heading animate-box">My Skills</h2>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-                                <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
-                            </div>
-                            <div class="col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-                                <div class="progress-wrap">
-                                    <h3>Photoshop</h3>
-                                    <div class="progress">
-                                        <div class="progress-bar color-1" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%">
-                                            <span>75%</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 animate-box" data-animate-effect="fadeInRight">
-                                <div class="progress-wrap">
-                                    <h3>jQuery</h3>
-                                    <div class="progress">
-                                        <div class="progress-bar color-2" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
-                                            <span>60%</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-                                <div class="progress-wrap">
-                                    <h3>HTML5</h3>
-                                    <div class="progress">
-                                        <div class="progress-bar color-3" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
-                                            <span>85%</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 animate-box" data-animate-effect="fadeInRight">
-                                <div class="progress-wrap">
-                                    <h3>CSS3</h3>
-                                    <div class="progress">
-                                        <div class="progress-bar color-4" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
-                                            <span>90%</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-                                <div class="progress-wrap">
-                                    <h3>WordPress</h3>
-                                    <div class="progress">
-                                        <div class="progress-bar color-5" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-                                            <span>70%</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 animate-box" data-animate-effect="fadeInRight">
-                                <div class="progress-wrap">
-                                    <h3>SEO</h3>
-                                    <div class="progress">
-                                        <div class="progress-bar color-6" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
-                                            <span>80%</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!--/.services -->
-
-
                 <!-- EDUCATION -->
                 <section class="colorlib-education" data-section="education">
                     <div class="colorlib-narrow-content">
@@ -376,95 +268,6 @@
                     </div>
                 </section>
                 <!--/.education -->
-
-
-                <!-- EXPERIENCE -->
-                <section class="colorlib-experience d-none" data-section="experience">
-                    <div class="colorlib-narrow-content">
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                                <span class="heading-meta heading-meta-block">Experience</span>
-                                <h2 class="colorlib-heading animate-box">Work Experience</h2>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="timeline-centered">
-                                    <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-                                        <div class="timeline-entry-inner">
-
-                                            <div class="timeline-icon color-1">
-                                                <i class="icon-pen2"></i>
-                                            </div>
-
-                                            <div class="timeline-label">
-                                                <h2><a href="#">Full Stack Developer</a> <span>2017-2018</span></h2>
-                                                <p>Tolerably earnestly middleton extremely distrusts she boy now not. Add and offered prepare how cordial two promise. Greatly who affixed suppose but enquire compact prepare all put. Added forth chief trees but rooms think may.</p>
-                                            </div>
-                                        </div>
-                                    </article>
-
-
-                                    <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
-                                        <div class="timeline-entry-inner">
-                                            <div class="timeline-icon color-2">
-                                                <i class="icon-pen2"></i>
-                                            </div>
-                                            <div class="timeline-label">
-                                                <h2><a href="#">Front End Developer at Google Company</a> <span>2017-2018</span></h2>
-                                                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-                                            </div>
-                                        </div>
-                                    </article>
-
-                                    <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-                                        <div class="timeline-entry-inner">
-                                            <div class="timeline-icon color-3">
-                                                <i class="icon-pen2"></i>
-                                            </div>
-                                            <div class="timeline-label">
-                                                <h2><a href="#">System Analyst</a> <span>2017-2018</span></h2>
-                                                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-                                            </div>
-                                        </div>
-                                    </article>
-
-                                    <article class="timeline-entry animate-box" data-animate-effect="fadeInTop">
-                                        <div class="timeline-entry-inner">
-                                            <div class="timeline-icon color-4">
-                                                <i class="icon-pen2"></i>
-                                            </div>
-                                            <div class="timeline-label">
-                                                <h2><a href="#">Creative Designer</a> <span>2017-2018</span></h2>
-                                                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-                                            </div>
-                                        </div>
-                                    </article>
-
-                                    <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-                                        <div class="timeline-entry-inner">
-                                            <div class="timeline-icon color-5">
-                                                <i class="icon-pen2"></i>
-                                            </div>
-                                            <div class="timeline-label">
-                                                <h2><a href="#">UI/UX Designer at Envato</a> <span>2017-2018</span></h2>
-                                                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-                                            </div>
-                                        </div>
-                                    </article>
-
-                                    <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
-                                        <div class="timeline-entry-inner">
-                                            <div class="timeline-icon color-none">
-                                            </div>
-                                        </div>
-                                    </article>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!--/.experience -->
 
 
                 <!-- WORK -->
@@ -649,31 +452,38 @@
                 <!-- CONTACT -->
                 <section class="colorlib-contact" data-section="contact">
                     <div class="colorlib-narrow-content">
+
                         <div class="row">
                             <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
                                 <span class="heading-meta heading-meta-block">Get in Touch</span>
                                 <h2 class="colorlib-heading">Contact</h2>
                             </div>
                         </div>
+                        <!--/.row -->
+
+
                         <div class="row">
-                        <div class="col-md-5">
-                            <div class="contact-info d-flex pb-5 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
-                                <div class="box-contact-icon"><i class="icon-globe-outline"></i></div>
-                                <div class="box-contact-text">Oktaalfiansyah@gmail.com</div>
-                            </div>
-                            <div class="d-flex pb-5 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
-                                <div class="box-contact-icon"><i class="icon-map"></i></div>
-                                <div class="box-contact-text">
-                                <a href="https://goo.gl/maps/q1pbxxoM4YgqjPgf7" target="_blank" rel="noopener">
-                                    JL. KH. Wahid Hasyim, Lr. Juwita, No. 1197, Kec. Jakabaring, Kel. Tuan Kentang, Kertapati, Palembang, 30257.
-                                </a>
+
+                            <div class="col-md-5 animate-box" data-animate-effect="fadeInLeft">
+                                <div class="contact-info d-flex pb-5">
+                                    <div class="box-contact-icon"><i class="icon-globe-outline"></i></div>
+                                    <div class="box-contact-text">Oktaalfiansyah@gmail.com</div>
+                                </div>
+                                <div class="d-flex pb-5">
+                                    <div class="box-contact-icon"><i class="icon-map"></i></div>
+                                    <div class="box-contact-text">
+                                        <a href="https://goo.gl/maps/q1pbxxoM4YgqjPgf7" target="_blank" rel="noopener">
+                                            JL. KH. Wahid Hasyim, Lr. Juwita, No. 1197, Kec. Jakabaring, Kel. Tuan Kentang, Kertapati, Palembang, 30257.
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="d-flex pb-5">
+                                    <div class="box-contact-icon"><i class="icon-whatsapp"></i></div>
+                                    <div class="box-contact-text"><a href="https://wa.me/6287742798886" target="_blank" rel="noopener">+6287742798886</a></div>
                                 </div>
                             </div>
-                            <div class="d-flex pb-5 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
-                                <div class="box-contact-icon"><i class="icon-whatsapp"></i></div>
-                                <div class="box-contact-text"><a href="https://wa.me/6287742798886" target="_blank" rel="noopener">+6287742798886</a></div>
-                            </div>
-                            </div>
+                            <!--/.col -->
+
                             <div class="col-md-7 col-md-push-1">
                                 <div class="row justify-content-end">
                                     <div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
@@ -698,7 +508,11 @@
 
                                 </div>
                             </div>
+                            <!--/.col -->
+
                         </div>
+                        <!--/.row -->
+
                     </div>
                 </section>
                 <!--/.contact -->
